@@ -1,6 +1,5 @@
 ## RGB-A ##
 
-On GitHub https://github.com/hurdleg/RGBA.git
+cloned from https://github.com/hurdleg/RGBA.git
 
-Please read my //TODO comments for you :)
-> View > Tool Windows > TODO
+finished assignment at https://github.com/lach0192/RGBA.git
