@@ -80,7 +80,7 @@ public class MainActivity extends Activity implements Observer, SeekBar.OnSeekBa
         mRedSB.setMax( RGBAModel.MAX_RGB );
         mGreenSB.setMax( RGBAModel.MAX_RGB );
         mBlueSB.setMax( RGBAModel.MAX_RGB );
-        mAlphaSB.setMax( RGBAModel.MAX_RGB );
+        mAlphaSB.setMax( RGBAModel.MAX_ALPHA );
 
         // register the event handler for each <SeekBar>
         mRedSB.setOnSeekBarChangeListener( this );
@@ -89,6 +89,7 @@ public class MainActivity extends Activity implements Observer, SeekBar.OnSeekBa
         mAlphaSB.setOnSeekBarChangeListener( this );
 
         // initialize the View to the values of the Model
+        mAlphaSB.setProgress(mModel.getAlpha());
         this.updateView();
     }
 
